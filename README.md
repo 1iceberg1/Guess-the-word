@@ -27,11 +27,11 @@
 # 📖 Guess The Word <a name="about-project"></a>
 
 <div align="center">
-  <img src="guess the word screenshot 1.jpg" alt="project sample" width="650"  height="auto" />
+  <img src="guess the word screenshot 1.png" alt="project sample" width="650"  height="auto" />
   <br/>
-  <img src="guess the word screenshot 2.jpg" alt="project sample" width="650"  height="auto" />
+  <img src="guess the word screenshot 2.png" alt="project sample" width="650"  height="auto" />
   <br/>
-  <img src="guess the word screenshot 3.jpg" alt="project sample" width="650"  height="auto" />
+  <img src="guess the word screenshot 3.png" alt="project sample" width="650"  height="auto" />
   <br/>
 
   <h3><b>Guess The Word</b></h3>
