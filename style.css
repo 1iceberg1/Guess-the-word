@@ -5,28 +5,37 @@
 }
 
 body {
-    background-color: aqua;
     display: flex;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
+    color: #fff;
+    background-color: aqua;
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .container {
-    width: 420px;
-    background-color: white;
-    border-radius: 10px;
+    width: 90%;
+    padding: 25px 20px;
+    border-radius: 40px;
+    background: rgba(88, 193, 187, 0.28);
+    backdrop-filter: blur(12.5px);
 }
 
 .container h1 {
-    border-bottom: 1px solid #ccc;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: 500;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 15px;
+    font-size: 1.3rem;
+    font-weight: 600;
 }
 
 .container .content {
-    margin: 25px 20px 35px;
+    margin-top: 15px;
 }
 
 .typing-input {
@@ -60,19 +69,24 @@ body {
 }
 
 .detail p {
-    font-size: 16px;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.detail p span {
+    font-weight: 500;
+    margin-left: 5px;
 }
 
 .content .reset-btn {
     width: 100%;
-    background-color: aqua;
-    color: white;
+    color: #fff;
+    background-color: #005F65;
     border: none;
-    padding: 5px;
+    padding: 10px;
     margin-top: 10px;
     border-radius: 10px;
     outline: none;
-    font-size: 17px;
+    font-size: 0.8rem;
     cursor: pointer;
 }
