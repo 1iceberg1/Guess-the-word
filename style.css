@@ -55,11 +55,12 @@ body {
     width: 55px;
     height: 56px;
     margin: 3px;
-    border: 1px solid #ccc;
+    border: 1px solid aqua;
     border-radius: 5px;
     font-size: 24px;
     font-weight: 500;
     color: aqua;
+    background-color: transparent;
     text-align: center;
     text-transform: uppercase;
 }
@@ -71,11 +72,13 @@ body {
 .detail p {
     margin-bottom: 5px;
     font-weight: 600;
+    color: #005F65;
 }
 
 .detail p span {
     font-weight: 500;
     margin-left: 5px;
+    color: aqua;
 }
 
 .content .reset-btn {
@@ -89,4 +92,38 @@ body {
     outline: none;
     font-size: 0.8rem;
     cursor: pointer;
+}
+
+.content .reset-btn:hover {
+    color: #005F65;
+    background-color: aqua;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        width: 450px;
+        padding: 35px;
+    }
+
+    .container h1 {
+        font-size: 1.5rem;
+        color: #005F65;
+        border-color: aqua;
+    }
+
+    .input input {
+        color: #005F65;
+    }
+
+    .detail p {
+        font-size: 1.1rem;
+    }
+
+    .detail p span {
+        color: #fff;
+    }
+
+    .content .reset-btn {
+        font-size: 1rem;
+    }
 }
