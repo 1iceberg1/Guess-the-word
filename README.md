@@ -69,7 +69,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://rhaegar121.github.io/Guess-the-word/)
+- [Live Demo Link](https://guess-the-word121.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
